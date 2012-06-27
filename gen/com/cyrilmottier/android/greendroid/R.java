@@ -610,6 +610,8 @@ containing a value of this type.
         public static final int gd_progress_bar_width=0x7f080008;
         public static final int gd_separator_item_view_height=0x7f080000;
         public static final int gd_separator_item_view_padding_left=0x7f080001;
+        public static final int thumbnail_radius=0x7f08000e;
+        public static final int thumbnail_size=0x7f08000d;
     }
     public static final class drawable {
         public static final int gd_action_bar_add=0x7f020000;
@@ -688,6 +690,7 @@ containing a value of this type.
         public static final int ic_launcher=0x7f020049;
     }
     public static final class id {
+        public static final int async_image=0x7f060029;
         public static final int bottom=0x7f060008;
         public static final int center=0x7f06000d;
         public static final int center_horizontal=0x7f06000c;
@@ -725,12 +728,14 @@ containing a value of this type.
         public static final int mdpi=0x7f060004;
         public static final int multiple=0x7f06000f;
         public static final int normal=0x7f060000;
-        public static final int page_indicator_next=0x7f06002b;
-        public static final int page_indicator_other=0x7f06002c;
-        public static final int page_indicator_prev=0x7f06002a;
-        public static final int paged_view=0x7f060029;
+        public static final int page_indicator_next=0x7f06002e;
+        public static final int page_indicator_other=0x7f06002f;
+        public static final int page_indicator_prev=0x7f06002d;
+        public static final int paged_view=0x7f06002c;
         public static final int right=0x7f06000a;
         public static final int single=0x7f06000e;
+        public static final int text=0x7f06002a;
+        public static final int textContent=0x7f06002b;
         public static final int top=0x7f060007;
         public static final int xhdpi=0x7f060006;
     }
@@ -765,13 +770,15 @@ containing a value of this type.
         public static final int gd_tab_indicator=0x7f03001b;
         public static final int gd_text_item_view=0x7f03001c;
         public static final int gd_thumbnail_item_view=0x7f03001d;
-        public static final int main=0x7f03001e;
-        public static final int paged_view=0x7f03001f;
-        public static final int paged_view_item=0x7f030020;
-        public static final int quick_action=0x7f030021;
+        public static final int image_item_view=0x7f03001e;
+        public static final int main=0x7f03001f;
+        public static final int paged_view=0x7f030020;
+        public static final int paged_view_item=0x7f030021;
+        public static final int quick_action=0x7f030022;
     }
     public static final class string {
         public static final int app_name=0x7f09001d;
+        public static final int asynvImageView=0x7f090023;
         public static final int basic_item_label=0x7f09001e;
         public static final int gd_add=0x7f09000b;
         public static final int gd_all_friends=0x7f090017;
@@ -802,6 +809,7 @@ containing a value of this type.
         public static final int gd_talk=0x7f090002;
         public static final int gd_trashcan=0x7f090015;
         public static final int hello=0x7f09001c;
+        public static final int image_for_position=0x7f090022;
         public static final int paged_view_label=0x7f090021;
         public static final int quick_action_label=0x7f090020;
         public static final int xml_item_label=0x7f09001f;

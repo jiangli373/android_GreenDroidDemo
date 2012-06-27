@@ -7,5 +7,7 @@
      <string name="xml_item_label">xml_item_label</string>
      <string name="quick_action_label">quick_action_label</string>
      <string name="paged_view_label">paged_view_label</string>
+     <string name="image_for_position">这是图</string>
+     <string name="asynvImageView">AsynvImageView</string>
 
 </resources>
