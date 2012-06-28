@@ -9,5 +9,6 @@
      <string name="paged_view_label">paged_view_label</string>
      <string name="image_for_position">这是图</string>
      <string name="asynvImageView">AsynvImageView</string>
+     <string name="asynvImageListView">asynvImageListView</string>
 
 </resources>

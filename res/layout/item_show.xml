@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:greendroid="http://schemas.android.com/apk/res/com.jiangli"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+     <greendroid.widget.AsyncImageView
+		android:id="@+id/async_image"
+		android:layout_width="@dimen/thumbnail_size"
+		android:layout_height="@dimen/thumbnail_size"
+		greendroid:defaultSrc="@drawable/ic_launcher" />
+	<LinearLayout 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	    >
+	<TextView
+		android:id="@+id/text"
+		android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF"
+            android:textSize="22dp" />
+	<TextView
+		android:id="@+id/textContent"
+		  android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF"
+            android:textSize="13dp" />
+	</LinearLayout>
+</LinearLayout>

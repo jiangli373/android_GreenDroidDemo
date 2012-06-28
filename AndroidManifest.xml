@@ -25,6 +25,7 @@
          <activity android:name=".QuickActionActivity" />
 		<activity android:name=".PagedViewActivity" />
 		<activity android:name=".AsynvImageView" />
+		<activity android:name=".AsynvImageListView" />
     </application>
 
 </manifest>

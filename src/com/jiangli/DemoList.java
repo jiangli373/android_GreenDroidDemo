@@ -26,6 +26,7 @@ public class DemoList extends GDListActivity {
         adapter.add(createTextItem(R.string.quick_action_label, QuickActionActivity.class));
         adapter.add(createTextItem(R.string.paged_view_label, PagedViewActivity.class));
         adapter.add(createTextItem(R.string.asynvImageView, AsynvImageView.class));
+        adapter.add(createTextItem(R.string.asynvImageListView, AsynvImageListView.class));
 
         setListAdapter(adapter);
 
